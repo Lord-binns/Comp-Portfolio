@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Binns | Portfolio</title>
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- JS -->
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="bg-gray-900 text-white">
+
+  <nav class="flex justify-between items-center p-6 bg-gray-800 fixed w-full">
+    <h1 class="text-xl font-bold">Binns</h1>
+    <ul class="flex space-x-6">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="home" class="h-screen flex items-center justify-center text-center">
+    <h2 class="text-5xl font-bold">Hi, I'm Binns</h2>
+  </section>
+
+  <section id="about" class="py-20 bg-gray-800 text-center">
+    <h3 class="text-3xl font-bold">About Me</h3>
+  </section>
+
+  <section id="projects" class="py-20 text-center">
+    <h3 class="text-3xl font-bold">Projects</h3>
+  </section>
+
+  <section id="contact" class="py-20 bg-gray-800 text-center">
+    <h3 class="text-3xl font-bold">Contact</h3>
+    <form id="contactForm">
+      <button class="bg-blue-500 px-6 py-3 rounded">Send</button>
+    </form>
+    <p id="successMsg" class="hidden text-green-400 mt-4">Message sent!</p>
+  </section>
+
+</body>
+</html>
