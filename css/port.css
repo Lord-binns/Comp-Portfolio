@@ -1,0 +1,4 @@
+/* custom tweaks only if needed */
+html {
+  scroll-behavior: smooth;
+}
